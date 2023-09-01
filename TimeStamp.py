@@ -1,5 +1,5 @@
 import time
-# t = time.strftime('%H:%M:%S')
+t = time.strftime('%H:%M:%S')
 hour = int(time.strftime('%H'))
 
 if(0 <= hour < 12):
